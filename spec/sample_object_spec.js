@@ -11,7 +11,7 @@ describe("SampleObject", function() {
   });
 
   it("#mySecondFunction adds two numbers together", function() {
-
+    subject.mySecondFunction();
     expect(subject.mySecondFunction(10, 5)).toEqual(15);
   });
 });
